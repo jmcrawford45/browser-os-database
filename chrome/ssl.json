@@ -1,0 +1,35 @@
+[
+{
+  "BrowserOrOSAPI": "Google Chrome (Chrome for Android)",
+  "Version": {
+    "From": "1",
+    "To": "9"
+  },
+  "Platforms": "Windows (10+), macOS (10.13+), Linux, Android (7.0+), iOS (14+), ChromeOS",
+  "SSLProtocols": {
+    "SSL2_0_insecure": false,
+    "SSL3_0_insecure": true
+  },
+  "TLSProtocols": {
+    "TLS1_0_deprecated": true,
+    "TLS1_1_deprecated": false,
+    "TLS1_2": false,
+    "TLS1_3": true
+  },
+  "CertificateSupport": {
+    "EV": false,
+    "SHA_2": false,
+    "ECDSA": false
+  },
+  "VulnerabilitiesFixed": {
+    "BEAST": true,
+    "CRIME": true,
+    "POODLE_SSLv3": false,
+    "RC4": false,
+    "FREAK": false,
+    "Logjam": true
+  },
+  "ProtocolSelectionByUser": "Yes"
+}
+
+]
